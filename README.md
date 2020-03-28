@@ -17,15 +17,15 @@
 
 首先要创建一个项目，创建一个文件夹，名字不重要，但是最好不要使用中文
 
-`
+```
 mkdir vue-ssr
 cd vue-ssr
 npm init
-`
+```
 
 npm init命令用来初始化package.json文件
 
-`
+```
 {
   "name": "dome",   //  项目名称
   "version": "1.0.0",   //  版本号
@@ -37,24 +37,24 @@ npm init命令用来初始化package.json文件
   "author": "Aaron",     //  作者
   "license": "ISC"      //  许可证
 }
-`
+```
 
 初始化完成之后接下来需要安装，项目所需要依赖的包，所有依赖项如下
 
-`
+```
 npm install express
 npm install vue
 npm install vue-server-renderer
 npm install vue-router
-`
+```
 
 为了方便我们需要在package.json添加一个命令，方便后续开发启动项目
 
-`
+```
 {
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   }
 }
-`
+```
